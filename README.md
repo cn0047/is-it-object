@@ -10,7 +10,7 @@ Most powerful way to check that value is an object in `javascript`.
 ## Usage
 
 ````js
-const isObject = require('isObject');
+const isObject = require('isobject');
 
 // Strict comparisons:
 isObject({});                  // true
