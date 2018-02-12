@@ -1,6 +1,10 @@
 isObject
 -
 
+[![Build Status](https://travis-ci.org/cn007b/isobject.svg?branch=master)](https://travis-ci.org/cn007b/isobject)
+[![Coverage Status](https://coveralls.io/repos/github/cn007b/is-it-object/badge.svg?branch=master)](https://coveralls.io/github/cn007b/is-it-object?branch=master)
+[![bitHound Code](https://www.bithound.io/github/cn007b/is-it-object/badges/code.svg)](https://www.bithound.io/github/cn007b/is-it-object)
+
 Most powerful way to check that value is an object in `javascript`.
 
 ## Installation
