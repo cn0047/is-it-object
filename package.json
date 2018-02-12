@@ -1,24 +1,24 @@
 {
-  "name": "isItObject",
-  "version": "1.0.0",
+  "name": "is-it-object",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Vladimir Kovpak",
-  "homepage": "https://github.com/cn007b/isobject#readme",
+  "homepage": "https://github.com/cn007b/is-it-object#readme",
   "description": "is object",
   "keywords": [
     "js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cn007b/isobject.git"
+    "url": "git+https://github.com/cn007b/is-it-object.git"
   },
   "bugs": {
-    "url": "https://github.com/cn007b/isobject/issues"
+    "url": "https://github.com/cn007b/is-it-object/issues"
   },
   "engines": {
     "node": "8.9.1"
   },
-  "main": "src/isobject.js",
+  "main": "src/isObject.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint src/",
     "test": "node_modules/mocha/bin/_mocha --recursive --reporter spec test/unit",

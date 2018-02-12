@@ -1,16 +1,16 @@
-isItObject
+isObject
 -
 
 Most powerful way to check that value is an object in `javascript`.
 
 ## Installation
 
-`npm i isItObject`
+`npm i is-it-object`
 
 ## Usage
 
 ````js
-const isObject = require('isItObject');
+const isObject = require('is-it-object');
 
 // Strict comparisons:
 isObject({});                  // true
