@@ -1,0 +1,38 @@
+{
+  "name": "isObject",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Vladimir Kovpak",
+  "homepage": "https://github.com/cn007b/isobject#readme",
+  "description": "is object",
+  "keywords": [
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn007b/isobject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cn007b/isobject/issues"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "src/isobject.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src/",
+    "test": "node_modules/mocha/bin/_mocha --recursive --reporter spec test/unit",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0"
+  }
+}

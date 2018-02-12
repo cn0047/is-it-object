@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "chai-expect"
+  ]
+}
