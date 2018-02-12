@@ -18,6 +18,9 @@ describe('Test suite for: `isObject`.', () => {
     it('# Null:', () => {
       assert.strictEqual(isObject(null), false);
     });
+    it('# Zero:', () => {
+      assert.strictEqual(isObject(0), false);
+    });
     it('# Empty string:', () => {
       assert.strictEqual(isObject(''), false);
     });
@@ -30,8 +33,14 @@ describe('Test suite for: `isObject`.', () => {
     it('# Function:', () => {
       assert.strictEqual(isObject(f), false);
     });
-    it('# Object.create:', () => {
+    it('# Object.create {}:', () => {
+      assert.strictEqual(isObject(Object.create({})), true);
+    });
+    it('# Object.create null:', () => {
       assert.strictEqual(isObject(Object.create(null)), true);
+    });
+    it('# Object.create prototype:', () => {
+      assert.strictEqual(isObject(Object.create(Object.prototype)), true);
     });
   });
 
@@ -48,6 +57,9 @@ describe('Test suite for: `isObject`.', () => {
     it('# Null:', () => {
       assert.strictEqual(isObject(null, false), false);
     });
+    it('# Zero:', () => {
+      assert.strictEqual(isObject(0, false), true);
+    });
     it('# Empty string:', () => {
       assert.strictEqual(isObject('', false), true);
     });
@@ -60,8 +72,14 @@ describe('Test suite for: `isObject`.', () => {
     it('# Function:', () => {
       assert.strictEqual(isObject(f, false), true);
     });
-    it('# Object.create:', () => {
+    it('# Object.create {}:', () => {
+      assert.strictEqual(isObject(Object.create({}), false), true);
+    });
+    it('# Object.create null:', () => {
       assert.strictEqual(isObject(Object.create(null), false), true);
+    });
+    it('# Object.create prototype:', () => {
+      assert.strictEqual(isObject(Object.create(Object.prototype), false), true);
     });
   });
 });

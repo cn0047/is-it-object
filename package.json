@@ -1,12 +1,16 @@
 {
   "name": "is-it-object",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "author": "Vladimir Kovpak",
   "homepage": "https://github.com/cn007b/is-it-object#readme",
   "description": "is object",
   "keywords": [
-    "js"
+    "js",
+    "javascript",
+    "is object",
+    "is-object",
+    "isobject"
   ],
   "repository": {
     "type": "git",
