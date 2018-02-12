@@ -30,7 +30,7 @@ isObject(Object.create({}));               // true
 isObject(Object.create(null));             // true
 isObject(Object.create(Object.prototype)); // true
 
-// Non-strict comparisons:
+// Non-strict comparisons (to check is it instance of any class):
 isObject({}, false);                              // true
 isObject([], false);                              // true
 isObject(undefined, false);                       // false
