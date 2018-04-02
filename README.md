@@ -19,31 +19,18 @@ Most powerful way to check that value is an object in `javascript`.
 ````js
 const isObject = require('is-it-object');
 
-// Strict comparisons:
 isObject({});                              // true
 isObject([]);                              // false
 isObject(undefined);                       // false
 isObject(null);                            // false
 isObject(0);                               // false
 isObject('');                              // false
-isObject(/.*/);                            // false
-isObject(new Date());                      // false
+isObject(/.*/);                            // true
+isObject(new Date());                      // true
 isObject(function () {});                  // false
 isObject(Object.create({}));               // true
 isObject(Object.create(null));             // true
 isObject(Object.create(Object.prototype)); // true
-
-// Non-strict comparisons (to check is it instance of any class):
-isObject({}, false);                              // true
-isObject([], false);                              // true
-isObject(undefined, false);                       // false
-isObject(null, false);                            // false
-isObject('', false);                              // true
-isObject(/.*/, false);                            // true
-isObject(new Date(), false);                      // true
-isObject(function () {}, false);                  // true
-isObject(Object.create(null), false);             // true
-isObject(Object.create(Object.prototype), false); // true
 ````
 More information available [here](https://stackoverflow.com/a/46663081/3612353).
 
