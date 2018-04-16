@@ -1,6 +1,6 @@
 {
   "name": "is-it-object",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "MIT",
   "author": "Vladimir Kovpak",
   "homepage": "https://github.com/cn007b/is-it-object#readme",
@@ -36,7 +36,7 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-chai-expect": "^1.1.1",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-mocha": "^5.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0",
     "npm-check-updates": "^2.14.0"

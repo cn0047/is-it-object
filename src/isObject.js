@@ -5,11 +5,7 @@
  * @returns {boolean} Is object.
  */
 function isObject(o) {
-  if (o === null) {
-    return false;
-  }
-
-  return typeof o === 'object' && Array.isArray(o) === false;
+  return typeof o === 'object' && Array.isArray(o) === false && o !== null;
 }
 
 module.exports = isObject;
