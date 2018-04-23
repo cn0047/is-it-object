@@ -1,8 +1,8 @@
 {
   "name": "is-it-object",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "license": "MIT",
-  "author": "Vladimir Kovpak",
+  "author": "Vladimir Kovpak <cn007b@gmail.com>",
   "homepage": "https://github.com/cn007b/is-it-object#readme",
   "description": "is object",
   "keywords": [
