@@ -6,7 +6,6 @@ isObject
 [![Build Status](https://travis-ci.org/cn007b/is-it-object.svg?branch=master)](https://travis-ci.org/cn007b/is-it-object)
 [![Coverage Status](https://coveralls.io/repos/github/cn007b/is-it-object/badge.svg?branch=master)](https://coveralls.io/github/cn007b/is-it-object?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8da29a447e037573f675/maintainability)](https://codeclimate.com/github/cn007b/is-it-object/maintainability)
-[![bitHound Code](https://www.bithound.io/github/cn007b/is-it-object/badges/code.svg)](https://www.bithound.io/github/cn007b/is-it-object)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Most powerful way to check that value is an object in `javascript`.
