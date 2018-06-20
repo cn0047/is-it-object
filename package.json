@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Vladimir Kovpak <cn007b@gmail.com>",
   "homepage": "https://github.com/cn007b/is-it-object#readme",
-  "description": "is object",
+  "description": "Tiny package which helps to check that value is an object in JavaScript.",
   "keywords": [
     "js",
     "javascript",
