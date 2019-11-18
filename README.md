@@ -9,6 +9,7 @@ isObject
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Most powerful way to check that value is an object in `javascript`.
+<br>More info about motivation for this repo you can find [here](https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript/46663081#46663081).
 
 ## Installation
 
