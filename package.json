@@ -31,14 +31,14 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "coveralls": "3.0.0",
-    "eslint": "^4.17.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-chai-expect": "^1.1.1",
+    "coveralls": "3.0.7",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-chai-expect": "^2.0.1",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-mocha": "^6.2.1",
     "istanbul": "^0.4.5",
-    "mocha": "^5.0.0",
-    "npm-check-updates": "^2.14.0"
+    "mocha": "^6.2.2",
+    "npm-check-updates": "^3.2.1"
   }
 }
